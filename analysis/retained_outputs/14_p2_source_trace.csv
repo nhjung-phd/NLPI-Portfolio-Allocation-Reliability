@@ -1,0 +1,13 @@
+file,line,text
+q1_experiments/prompt_library.py,22,"""P2"": ("
+q1_experiments/prompt_library.py,72,"""P2"": ["
+q1_experiments/prompt_library.py,73,"BASE_POLICY_PROMPTS[""P2""],"
+q1_experiments/reference_policies.py,71,audit target against which natural-language-to-action fidelity is measured.
+q1_experiments/reference_policies.py,80,"if pid == ""P2"" or pid == ""L1"":"
+q1_experiments/runner.py,426,"""target_asset"": ref_top,"
+q1_experiments/runner.py,429,"""raw_fidelity"": int(raw_top == ref_top),"
+q1_experiments/runner.py,430,"""projected_fidelity"": int(proj_top == ref_top),"
+q1_experiments/runner.py,716,"p.add_argument(""--policies"", nargs=""+"", default=None, help=""Optional subset: P1 P2 P3 P4 P5 P6"")"
+paper_canonical.py,29,"PAPER_POLICIES = [""P1"", ""P2"", ""P3"", ""P4"", ""P5""]"
+paper_canonical.py,30,"PAPER_RELIABILITY_POLICIES = [""P1"", ""P2"", ""P3"", ""P4"", ""P5"", ""P6""]"
+paper_canonical.py,32,"PAPER_CODED = [""CODED_P1"", ""CODED_P2"", ""CODED_P3"", ""CODED_P4"", ""CODED_P5""]"

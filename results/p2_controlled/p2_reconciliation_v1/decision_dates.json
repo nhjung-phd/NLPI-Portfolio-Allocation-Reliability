@@ -1,0 +1,51 @@
+[
+  {
+    "fold": 1,
+    "position": 756,
+    "decision_date": "2013-01-04",
+    "train_start": 0,
+    "train_end": 756
+  },
+  {
+    "fold": 3,
+    "position": 1260,
+    "decision_date": "2015-01-06",
+    "train_start": 0,
+    "train_end": 1260
+  },
+  {
+    "fold": 5,
+    "position": 1806,
+    "decision_date": "2017-03-08",
+    "train_start": 0,
+    "train_end": 1764
+  },
+  {
+    "fold": 7,
+    "position": 2352,
+    "decision_date": "2019-05-09",
+    "train_start": 0,
+    "train_end": 2268
+  },
+  {
+    "fold": 9,
+    "position": 2898,
+    "decision_date": "2021-07-09",
+    "train_start": 0,
+    "train_end": 2772
+  },
+  {
+    "fold": 11,
+    "position": 3444,
+    "decision_date": "2023-09-11",
+    "train_start": 0,
+    "train_end": 3276
+  },
+  {
+    "fold": 13,
+    "position": 3990,
+    "decision_date": "2025-11-12",
+    "train_start": 0,
+    "train_end": 3780
+  }
+]

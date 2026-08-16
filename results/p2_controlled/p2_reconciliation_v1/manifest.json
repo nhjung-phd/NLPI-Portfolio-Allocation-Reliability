@@ -1,0 +1,37 @@
+{
+  "created_utc": "2026-08-16T00:47:35.594537+00:00",
+  "status": "completed",
+  "settings_hash": "bbeaf06cd2b7f2b49825f85ecdbfd58d0b6199a82a85e45b109b3a4a0055b840",
+  "settings": {
+    "experiment_id": "p2_reconciliation_v1",
+    "source_run": "/Users/nhjung/Data/git/LLM_Portfolios/LLM_Portfolio_NLPI_PaperCanonical/outputs/NLPI_PAPER_CANONICAL_V1_20260717_152949",
+    "source_price_sha256": "67fbc3feffd6ac12efca4f297f2789c3636f24bd474fa79bd38562ce79206817",
+    "source_protocol_sha256": "b26c280fcf01bd6f967eb6f3ae6785e7ee2f16868610c4c6e881507a8f74bce9",
+    "models": [
+      "gemma3:270m",
+      "gemma3:1b",
+      "llama3.1:8b"
+    ],
+    "conditions": [
+      "A_wfcv_exact",
+      "B_wfcv_no_fewshot",
+      "C_bridge_canonical"
+    ],
+    "policy_id": "P2",
+    "n_dates": 7,
+    "train_days": 756,
+    "test_days": 252,
+    "rebalance_days": 42,
+    "max_weight": 0.6,
+    "turnover_cap": 0.25,
+    "prompt_cap_pct": 60.0,
+    "seed": 42,
+    "temperature": 0.0,
+    "top_p": 0.9,
+    "num_predict": 512,
+    "dry_run": false
+  },
+  "expected_calls": 63,
+  "completed_utc": "2026-08-16T00:56:29.506248+00:00",
+  "completed_calls": 63
+}

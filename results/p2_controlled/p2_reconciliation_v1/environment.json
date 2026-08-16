@@ -1,0 +1,76 @@
+{
+  "created_utc": "2026-08-16T00:47:35.559367+00:00",
+  "python": "3.13.9 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 19:11:29) [Clang 20.1.8 ]",
+  "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+  "ollama": {
+    "status": "ok",
+    "models": [
+      {
+        "name": "mistral:7b",
+        "digest": "6577803aa9a036369e481d648a2baebb381ebc6e897f2bb9a766a2aa7bfbc1cf",
+        "modified_at": "2026-07-11T11:04:27.719297363+09:00",
+        "size": 4372824384
+      },
+      {
+        "name": "qwen3.5:4b",
+        "digest": "2a654d98e6fba55d452b7043684e9b57a947e393bbffa62485a7aac05ee4eefd",
+        "modified_at": "2026-07-11T10:51:58.991770456+09:00",
+        "size": 3389983735
+      },
+      {
+        "name": "qwen3:4b",
+        "digest": "359d7dd4bcdab3d86b87d73ac27966f4dbb9f5efdfcc75d34a8764a09474fae7",
+        "modified_at": "2026-06-14T22:34:21.387788211+09:00",
+        "size": 2497293931
+      },
+      {
+        "name": "gemma4:e4b",
+        "digest": "c6eb396dbd5992bbe3f5cdb947e8bbc0ee413d7c17e2beaae69f5d569cf982eb",
+        "modified_at": "2026-04-15T21:22:34.000300323+09:00",
+        "size": 9608350718
+      },
+      {
+        "name": "gemma4:latest",
+        "digest": "c6eb396dbd5992bbe3f5cdb947e8bbc0ee413d7c17e2beaae69f5d569cf982eb",
+        "modified_at": "2026-04-08T20:47:44.398823585+09:00",
+        "size": 9608350718
+      },
+      {
+        "name": "llama3.1:latest",
+        "digest": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e",
+        "modified_at": "2025-10-12T21:49:00.390385931+09:00",
+        "size": 4920753328
+      },
+      {
+        "name": "llama3.1:8b",
+        "digest": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e",
+        "modified_at": "2025-08-23T12:49:13.548782889+09:00",
+        "size": 4920753328
+      },
+      {
+        "name": "gemma3:270m",
+        "digest": "e7d36fb2c3b3293cfe56d55889867a064b3a2b22e98335f2e6e8a387e081d6be",
+        "modified_at": "2025-08-20T10:47:54.438745612+09:00",
+        "size": 291554930
+      },
+      {
+        "name": "gemma3:1b",
+        "digest": "8648f39daa8fbf5b18c7b4e6a8fb4990c692751d49917417b8842ca5758e7ffc",
+        "modified_at": "2025-08-20T10:45:39.150270727+09:00",
+        "size": 815319791
+      },
+      {
+        "name": "gpt-oss:20b",
+        "digest": "f2b8351c629c005bd3f0a0e3046f905afcbffede19b648e4bd7c884cdfd63af6",
+        "modified_at": "2025-08-09T12:50:31.12988726+09:00",
+        "size": 13780173839
+      },
+      {
+        "name": "deepseek-r1:8b",
+        "digest": "6995872bfe4c521a67b32da386cd21d5c6e819b6e0d62f79f64ec83be99f5763",
+        "modified_at": "2025-08-02T10:53:22.177204619+09:00",
+        "size": 5225376047
+      }
+    ]
+  }
+}

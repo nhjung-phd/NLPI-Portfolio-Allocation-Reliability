@@ -1,0 +1,5 @@
+file,rows,columns,bytes
+outputs/NLPI_PAPER_CANONICAL_V1_20260717_152949/reliability_resumable_20260727/logs/q1_decision_log.csv,5562,64,31047908
+outputs/qwen_model_generalization_108/logs/q1_decision_log.csv,108,64,626007
+outputs/NLPI_PAPER_CANONICAL_V1_20260717_152949/main/oos_tidy.csv,188250,9,12210220
+outputs/NLPI_PAPER_CANONICAL_V1_20260717_152949/main/prompt_fidelity.csv,2700,58,416002

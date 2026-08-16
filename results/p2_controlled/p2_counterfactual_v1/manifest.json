@@ -1,0 +1,46 @@
+{
+  "created_utc": "2026-08-16T01:11:53.047008+00:00",
+  "status": "completed",
+  "settings_hash": "bfc43fab532ad060d9e941b1031f6dfbf037e001e4724a17c614fd8cfabb5d3b",
+  "settings": {
+    "experiment_id": "p2_counterfactual_v1",
+    "source_run": "/Users/nhjung/Data/git/LLM_Portfolios/Last/LLM_Portfolio_NLPI_PaperCanonical/outputs/NLPI_PAPER_CANONICAL_V1_20260717_152949",
+    "source_price_sha256": "67fbc3feffd6ac12efca4f297f2789c3636f24bd474fa79bd38562ce79206817",
+    "source_protocol_sha256": "b26c280fcf01bd6f967eb6f3ae6785e7ee2f16868610c4c6e881507a8f74bce9",
+    "models": [
+      "gemma3:270m",
+      "gemma3:1b",
+      "llama3.1:8b"
+    ],
+    "conditions": [
+      "D_counterfactual_fewshot",
+      "E_counterfactual_no_fewshot"
+    ],
+    "policy_id": "P2",
+    "counterfactual_method": "swap BIL_vol3m with the preregistered target asset vol3m",
+    "counterfactual_targets": [
+      "AGG",
+      "BND",
+      "SHY",
+      "IEF",
+      "TIP",
+      "LQD",
+      "UUP"
+    ],
+    "n_dates": 7,
+    "train_days": 756,
+    "test_days": 252,
+    "rebalance_days": 42,
+    "max_weight": 0.6,
+    "turnover_cap": 0.25,
+    "prompt_cap_pct": 60.0,
+    "seed": 42,
+    "temperature": 0.0,
+    "top_p": 0.9,
+    "num_predict": 512,
+    "dry_run": false
+  },
+  "expected_calls": 42,
+  "completed_utc": "2026-08-16T01:17:06.994341+00:00",
+  "completed_calls": 42
+}

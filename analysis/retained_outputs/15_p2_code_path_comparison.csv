@@ -1,0 +1,7 @@
+component,study_a,study_b,comparison
+policy text,DEFENSIVE LOW-VOLATILITY; minimum _vol3m,DEFENSIVE LOW-VOLATILITY; minimum _vol3m,aligned
+target executor,engine/strategies.py::_intended_core_asset,q1_experiments/reference_policies.py::reference_weights,independent implementations; same argmin _vol3m rule
+sampling,WFCV calls across five folds; decision date absent from exported diagnostic,18 fixed common dates per model-policy,not aligned
+observed P2 target,BIL in all exported P2 diagnostic rows,BIL on all 18 common dates,aligned in observed target
+observed LLM top asset,BIL in exported P2 calls,mostly SPY; never BIL,not aligned
+conclusion,fidelity 1.0,fidelity 0.0,not a reference-code discrepancy; execution-context/protocol discontinuity

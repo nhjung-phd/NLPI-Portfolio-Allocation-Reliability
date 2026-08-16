@@ -1,0 +1,2 @@
+rows,expected_total,total_matches_expected,duplicate_rows_by_analysis_key,unique_call_ids,json_valid_rate,parse_fail_count,repair_used_count
+5670,5670,True,0,5670,1.0,2,19

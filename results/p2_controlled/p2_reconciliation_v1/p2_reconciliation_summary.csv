@@ -1,0 +1,10 @@
+condition_id,model_id,n,projected_fidelity,raw_fidelity,mean_allocation_l1,json_valid,repair_rate,mean_latency_sec
+A_wfcv_exact,gemma3:1b,7,1.0,1.0,0.0,1.0,0.0,5.097157071427708
+A_wfcv_exact,gemma3:270m,7,1.0,1.0,0.0,1.0,0.0,2.1027181310013736
+A_wfcv_exact,llama3.1:8b,7,1.0,1.0,0.0,1.0,0.0,24.361028667003016
+B_wfcv_no_fewshot,gemma3:1b,7,0.0,0.0,1.4223457315292056,1.0,0.0,3.585971488141305
+B_wfcv_no_fewshot,gemma3:270m,7,0.0,0.0,1.1090909090909091,1.0,0.0,1.4658467978567518
+B_wfcv_no_fewshot,llama3.1:8b,7,0.0,0.0,1.1437641723356007,1.0,0.0,16.039310101284563
+C_bridge_canonical,gemma3:1b,7,0.0,0.0,1.3766820980900696,1.0,0.0,3.8455125300014124
+C_bridge_canonical,gemma3:270m,7,0.0,0.0,1.2545118676471103,1.0,0.0,2.08997663671367
+C_bridge_canonical,llama3.1:8b,7,0.0,0.0,1.3384306644024864,1.0,0.0,17.49201366071481

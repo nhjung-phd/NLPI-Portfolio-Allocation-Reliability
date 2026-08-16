@@ -1,0 +1,20 @@
+{
+  "source_main": "results/reliability_primary/q1_decision_log.csv",
+  "source_qwen": "results/reliability_qwen/q1_decision_log.csv",
+  "records_main": 5562,
+  "records_qwen": 108,
+  "records_total": 5670,
+  "cluster_columns": [
+    "model_id",
+    "policy_id",
+    "decision_date"
+  ],
+  "metrics": [
+    "projected_fidelity",
+    "top3_overlap",
+    "json_valid"
+  ],
+  "bootstrap_reps": 10000,
+  "seed": 42,
+  "method": "nonparametric percentile bootstrap of whole clusters"
+}

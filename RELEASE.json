@@ -1,0 +1,14 @@
+{
+  "release": "v1.0.0",
+  "paper_title": "Natural-Language Policy Interfaces for Constraint-Projected Portfolio Allocation: Performance, Reliability, and Semantic Fidelity",
+  "journal": "Computational Economics",
+  "authors": [
+    "Nak Hyun Jung",
+    "Taeyeon Oh"
+  ],
+  "corresponding_author": "Taeyeon Oh",
+  "primary_call_records": 5670,
+  "total_audit_records": 6174,
+  "market_data_redistributed": false,
+  "note": "Market data retrieval code and manifests are supplied; third-party raw prices are not redistributed."
+}

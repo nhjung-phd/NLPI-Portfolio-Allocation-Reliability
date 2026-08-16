@@ -1,0 +1,8 @@
+item,study_a,study_b,same_definition,interpretation
+sample size,540,72,No,Study A WFCV events versus Study B common decision dates
+reference target implementation,LLMStrategy._intended_core_asset: argmin *_vol3m,reference_weights(P2): argmin *_vol3m,Yes,Both code paths use the same low-volatility target rule
+LLM execution context,WFCV backtest prompt generated inside LLMStrategy,standalone reliability runner prompt and common dates,No,"Prompt rendering, feature snapshot, call context, and sampling protocol differ"
+projected fidelity mean,1.0,0.0,Outcome differs,Do not pool before protocol reconciliation
+raw fidelity mean,1.0,0.0,Outcome differs,Compare pre-projection semantics separately
+projection stage available,True,True,Yes at field level,Implementation semantics still require source audit
+decision-date structure,fold/event based; date not stored in prompt_fidelity,18 common dates,No,Sampling frame differs

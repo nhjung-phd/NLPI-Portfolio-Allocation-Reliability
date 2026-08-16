@@ -1,0 +1,38 @@
+[PASS] file exists: results/reliability_primary/q1_decision_log.csv
+[PASS] file exists: results/reliability_qwen/q1_decision_log.csv
+[PASS] primary archive split is 5,562 + 108
+[PASS] primary reliability audit contains 5,670 records
+[PASS] primary final JSON validity is 100%
+[PASS] primary projected fidelity is 14.44%
+[PASS] file exists: results/supplementary/bridge_baseline_504part/supplementary_calls.csv
+[PASS] file exists: results/supplementary/repeatability_504part/supplementary_calls.csv
+[PASS] file exists: results/supplementary/baseline_corrected_rerun_v1/supplementary_calls.csv
+[PASS] supplementary counts are 252, 168, and 84
+[PASS] repeated-measures audit total is 6,174
+[PASS] file exists: results/wfcv/performance_main.csv
+[PASS] MVP Sharpe is 0.979107
+[PASS] CODED P2 Sharpe is 0.951624
+[PASS] best NLPI P2 Sharpe is 0.951624
+[PASS] file exists: results/p2_controlled/p2_reconciliation_v1/p2_reconciliation_calls.csv
+[PASS] file exists: results/p2_controlled/p2_counterfactual_v1/p2_counterfactual_calls.csv
+[PASS] controlled P2 counts are 63 + 42 = 105
+[PASS] A_wfcv_exact contains 21 calls
+[PASS] A_wfcv_exact fidelity count is 21/21
+[PASS] B_wfcv_no_fewshot contains 21 calls
+[PASS] B_wfcv_no_fewshot fidelity count is 0/21
+[PASS] C_bridge_canonical contains 21 calls
+[PASS] C_bridge_canonical fidelity count is 0/21
+[PASS] D_counterfactual_fewshot contains 21 calls
+[PASS] D_counterfactual_fewshot fidelity count is 0/21
+[PASS] E_counterfactual_no_fewshot contains 21 calls
+[PASS] E_counterfactual_no_fewshot fidelity count is 0/21
+[PASS] A-versus-D comparison contains 21 matched pairs
+[PASS] A-versus-D raw_output is identical in 21/21 pairs
+[PASS] A-versus-D raw_weights is identical in 21/21 pairs
+[PASS] A-versus-D projected_weights is identical in 21/21 pairs
+[PASS] A-versus-D top_asset_projected is identical in 21/21 pairs
+[PASS] counterfactual few-shot condition copies BIL in 21/21 calls
+[PASS] counterfactual target set matches the seven prescribed assets
+RELEASE_VALIDATION_OK
+CLUSTER_BOOTSTRAP_OK records=5670 clusters=756 fidelity=0.1444 ci95=[0.1195,0.1707]
+[DONE] results/statistical_enhancement

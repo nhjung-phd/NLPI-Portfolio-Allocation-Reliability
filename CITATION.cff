@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this software or dataset, please cite the associated manuscript."
+title: "NLPI Portfolio Allocation Reliability"
+type: software
+version: 1.2.0
+date-released: 2026-08-16
+abstract: "Code and retained results for natural-language policy interfaces in constraint-projected portfolio allocation."
+authors:
+  - family-names: "Jung"
+    given-names: "Nak Hyun"
+    orcid: "https://orcid.org/0009-0007-7390-1714"
+  - family-names: "Oh"
+    given-names: "Taeyeon"
+preferred-citation:
+  type: article
+  title: "Natural-Language Policy Interfaces for Constraint-Projected Portfolio Allocation: Performance, Reliability, and Semantic Fidelity"
+  journal: "Computational Economics"
+  authors:
+    - family-names: "Jung"
+      given-names: "Nak Hyun"
+    - family-names: "Oh"
+      given-names: "Taeyeon"
+  year: 2026

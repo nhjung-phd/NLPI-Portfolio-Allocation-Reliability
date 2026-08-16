@@ -1,0 +1,192 @@
+{
+  "run_id": "NLPI_PAPER_CANONICAL_V1_20260717_152949",
+  "protocol_id": "NLPI-PAPER-CANONICAL-V1",
+  "created_utc": "2026-07-17T06:29:49+00:00",
+  "status": "running",
+  "stage": "reliability",
+  "project_root": "/Users/nhjung/Data/git/LLM_Portfolios/LLM_Portfolio_NLPI_PaperCanonical",
+  "run_root": "/Users/nhjung/Data/git/LLM_Portfolios/LLM_Portfolio_NLPI_PaperCanonical/outputs/NLPI_PAPER_CANONICAL_V1_20260717_152949",
+  "python": {
+    "executable": "/Users/nhjung/Data/git/LLM_Portfolios/LLM_Portfolio_NLPI_PaperCanonical/venv/bin/python",
+    "version": "3.13.9 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 19:11:29) [Clang 20.1.8 ]"
+  },
+  "platform": {
+    "system": "Darwin",
+    "release": "25.5.0",
+    "machine": "arm64",
+    "processor": "arm"
+  },
+  "git_commit": "not-a-git-checkout",
+  "ollama": {
+    "version": "ollama version is 0.31.1",
+    "list_output": "NAME               ID              SIZE      MODIFIED      \nmistral:7b         6577803aa9a0    4.4 GB    6 days ago       \nqwen3.5:4b         2a654d98e6fb    3.4 GB    6 days ago       \nqwen3:4b           359d7dd4bcda    2.5 GB    4 weeks ago      \ngemma4:e4b         c6eb396dbd59    9.6 GB    3 months ago     \ngemma4:latest      c6eb396dbd59    9.6 GB    3 months ago     \nllama3.1:latest    46e0c10c039e    4.9 GB    9 months ago     \nllama3.1:8b        46e0c10c039e    4.9 GB    10 months ago    \ngemma3:270m        e7d36fb2c3b3    291 MB    11 months ago    \ngemma3:1b          8648f39daa8f    815 MB    11 months ago    \ngpt-oss:20b        f2b8351c629c    13 GB     11 months ago    \ndeepseek-r1:8b     6995872bfe4c    5.2 GB    11 months ago"
+  },
+  "protocol": {
+    "protocol_id": "NLPI-PAPER-CANONICAL-V1",
+    "start": "2010-01-01",
+    "end": "2025-12-29",
+    "tickers": [
+      "SPY",
+      "QQQ",
+      "IWM",
+      "DIA",
+      "EFA",
+      "EEM",
+      "VEA",
+      "VWO",
+      "AGG",
+      "BND",
+      "SHY",
+      "IEF",
+      "TLT",
+      "TIP",
+      "LQD",
+      "HYG",
+      "GLD",
+      "SLV",
+      "DBC",
+      "VNQ",
+      "UUP",
+      "BIL"
+    ],
+    "rebalance_days": 42,
+    "transaction_cost": 0.001,
+    "max_weight": 0.6,
+    "turnover_cap": 0.25,
+    "prompt_cap_pct": 60,
+    "wfcv": true,
+    "holdout": false,
+    "execution": "next-period",
+    "weight_drift": true,
+    "main_models": [
+      "gemma3:270m",
+      "gemma3:1b",
+      "llama3.1:8b"
+    ],
+    "robustness_models": [
+      "qwen3.5:4b"
+    ],
+    "main_policies": [
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5"
+    ],
+    "reliability_policies": [
+      "P1",
+      "P2",
+      "P3",
+      "P4",
+      "P5",
+      "P6"
+    ],
+    "benchmarks": [
+      "EQUAL",
+      "RiskParity",
+      "MVP",
+      "MOM6",
+      "SHARPE"
+    ],
+    "coded_references": [
+      "CODED_P1",
+      "CODED_P2",
+      "CODED_P3",
+      "CODED_P4",
+      "CODED_P5"
+    ],
+    "reliability_experiments": [
+      "prompt_robustness",
+      "ticker_masking",
+      "policy_complexity",
+      "constraint_stress",
+      "model_generalization",
+      "sensitivity_template"
+    ],
+    "reliability_decision_sample": "stratified",
+    "n_per_regime": 6,
+    "seed": 42,
+    "figure_dpi": 600,
+    "figure_formats": [
+      "png",
+      "pdf",
+      "svg"
+    ],
+    "figure_stage": "deterministic_csv_reconstruction",
+    "include_reliability": true,
+    "include_qwen3_5_4b": true
+  },
+  "source_hashes": {
+    "gui.py": "f5d977c19c8e06acc0bc4ae2d120d1e7023267593b7a54d9c12f86f5d4928e0a",
+    "core.py": "236a4420e447ad99787243bf6537783fea5f3bfc1bec74167c2a37bf477be8e7",
+    "llm.py": "e569f3efe71b58fad36d5802f1d2cc744350edac4081167c75e378c1496b4956",
+    "llm_portfolio.py": "a034486aaf8e35a3627175a13dcccde0179ac234d659bfacb0e9cfa6a6b945a8",
+    "portfolios.py": "199dbda148490b4279f5318b827a760182be7120d51325d1fb8d40ba1fe78361",
+    "paper_canonical.py": "90652667d2cf06816932b8110061da9c83c0a2bd72293172a061cc81a9a68584",
+    "requirements.txt": "4a031961a9b6fe40ca980320c5dbbad85a0e49281d5fe260e29a874919b3e1a9",
+    "engine/__init__.py": "4a18d6232d083bf7a42d212c3a1297a7baba0cdf98cf38fe15715b0961e39135",
+    "engine/__pycache__/__init__.cpython-313.pyc": "e49b45403b92b919d76fccb85d38601398dd642069f24b3d490fe7bc8104b298",
+    "engine/__pycache__/backtest.cpython-313.pyc": "08ecfb35a838586fd6844f93be0d05328aa2f7e0dd3046535a3ed883f616c1f4",
+    "engine/__pycache__/cov_utils.cpython-313.pyc": "1c8146546bbc0244b6c66b59dca90d2a7e5acc5da2235c7e7d9281093d70f4b4",
+    "engine/__pycache__/metrics.cpython-313.pyc": "218e3fa511011a737c945a929fe042b55af3bff0ad04c1c601113297a9028cf9",
+    "engine/__pycache__/registry.cpython-313.pyc": "39bde5c45b4da6b19023bf5cf77b54b137f3dbe19a580fb1a6a7186fe3bf308e",
+    "engine/__pycache__/statsig.cpython-313.pyc": "b3bf22431ab0564f445614fa437ea76ee016966c33c410571ff9826f78e3cbaf",
+    "engine/__pycache__/strategies.cpython-313.pyc": "fa583cd1766abbe28667b105721d8921e1901d92006d046446010b6c172821d8",
+    "engine/backtest.py": "0b2782902378c4ba983785b62b9bf806c5cd0033b06412f36e0a87794d68b02a",
+    "engine/cov_utils.py": "b2890e1c01827bb305b0193aeeca740c46303a8083a10ac8f0aa3a8e4b654471",
+    "engine/metrics.py": "36cfefe3bd04f01d7e6833537c0e2f305c2c811656b6608752075d6e547287b8",
+    "engine/registry.py": "598ec0a4e0e23862eba2b46d667c7d2ad79bb997ce7de06f73513ade779aa99b",
+    "engine/statsig.py": "38be7a37533915c72d760a2d220a43412093ebe0020bde1c41cfbc6d45a03b53",
+    "engine/strategies.py": "86460ecbbdb246ff70c0c8c4e67ce68bbf2f72a18104fd334f161d7d01955e9b",
+    "q1_experiments/__init__.py": "e9adc79acd91e707417260de18f720f06d1006148b25c6b4444fdfb3c3bc3306",
+    "q1_experiments/__pycache__/__init__.cpython-313.pyc": "b3ccfcc35c2dd65779bf68a5742c3eec34517d17a06edaece92cc5904cdec402",
+    "q1_experiments/__pycache__/prompt_library.cpython-313.pyc": "8e886b0730a5f980771fa67c5805aa0591c12f6e16ed6c16ae719f679c0721b5",
+    "q1_experiments/__pycache__/q2_postprocess.cpython-313.pyc": "37bf9af7a53c6409bcc784c399c8eb61f940ee9566606c9ce7816f40473eabea",
+    "q1_experiments/__pycache__/reference_policies.cpython-313.pyc": "8ca6efb8417a64809d5abbaf0eb2cc0219915a57a9ce7e916bb0b17d07b627e6",
+    "q1_experiments/__pycache__/runner.cpython-313.pyc": "a2f5c16883f843c8e6a775da1a272993ac3c9325f9570e109b3497580cf18ebc",
+    "q1_experiments/__pycache__/tables.cpython-313.pyc": "0807d2de122adbe84f3421393a10dd0b8564b510cb5b632ed3cd13f868ee10b2",
+    "q1_experiments/prompt_library.py": "85281b7c8d91f6976b8ab181639845d1e2e59491da6d3df3939263069f104cac",
+    "q1_experiments/q2_postprocess.py": "9d7bd37e0abd451ef7864a3264e4e8a75e6b5e2ec4e64d072e0519ef74059af3",
+    "q1_experiments/reference_policies.py": "ad3c43952f3d6943cef4b732f5c8c72b478afe72e24e42a5abb0331a5815f1e7",
+    "q1_experiments/runner.py": "26bee91688f0a650461b284a37963e2a75d65e94a307546dd26cb1f1a6662af8",
+    "q1_experiments/tables.py": "8390139f59804f9b3745c209806909ca67490c8315c07e8c95ef72da23464a32",
+    "paper_figures/__init__.py": "615cd55265b893d330166895b3a11fcda77f08ecfa980acbf125a17a620bc58b",
+    "paper_figures/__pycache__/__init__.cpython-313.pyc": "afe0cc35cff60b34a425f6cae324d3cfb8e54f807bce4fa9c8ba30b0c0589ca6",
+    "paper_figures/__pycache__/equity_figures.cpython-313.pyc": "fe61526f0580508120fa4a98b5b50b118635be272a75ba2931e4dd8210882c58",
+    "paper_figures/__pycache__/generate_all.cpython-313.pyc": "6aecd5ec2a1f5e3dd8f24666271b6c364b85b31104e69f0d1bc7b54db1fe2a64",
+    "paper_figures/__pycache__/loaders.cpython-313.pyc": "3c7ead6eadfae183860d3a76c071ebd7af870517faa948e2ec1c232d6c3ade82",
+    "paper_figures/__pycache__/reliability_figures.cpython-313.pyc": "a51399f4048df1b95e7a13439b52e16e3a394a8b66ff53e797dac29466ea029b",
+    "paper_figures/__pycache__/style.cpython-313.pyc": "b1b59857e3fb6f91e26e97bda031e5c67f5ff14744b7888b860e6ac43b0563c6",
+    "paper_figures/equity_figures.py": "eec9f1d9f4bfa805d61aa031ff41c5694734ab3b210effba134d146cc56258f9",
+    "paper_figures/generate_all.py": "0f53e2b7df11ca0592c11ee483963ec88c48de636345d204aef16eca1bf426d1",
+    "paper_figures/loaders.py": "4066f00cb3850e0d48dd1c39fdc835de0beed832157b23ceb2c6ac9ced94a004",
+    "paper_figures/reliability_figures.py": "e73b2e76b6ff9a8004e22de38fd0f5c4c32bbe50a832537397c65902fe0894fa",
+    "paper_figures/style.py": "1f17dc0597cb23a708f3e2aebfacd500eb83baf1793bbba720acc1b3954c44fd",
+    "configs/paper_protocol.json": "4c160873ed8457658f6289d953030fc86add43dce9ff2c2e30dc2337ae9965a7"
+  },
+  "stages": [
+    {
+      "time_utc": "2026-07-17T06:29:50+00:00",
+      "stage": "main",
+      "status": "started"
+    },
+    {
+      "time_utc": "2026-07-17T09:38:51+00:00",
+      "stage": "main",
+      "status": "completed",
+      "output": "/Users/nhjung/Data/git/LLM_Portfolios/LLM_Portfolio_NLPI_PaperCanonical/outputs/NLPI_PAPER_CANONICAL_V1_20260717_152949/main"
+    },
+    {
+      "time_utc": "2026-07-17T09:38:51+00:00",
+      "stage": "reliability",
+      "status": "started",
+      "models": [
+        "gemma3:270m",
+        "gemma3:1b",
+        "llama3.1:8b",
+        "qwen3.5:4b"
+      ]
+    }
+  ],
+  "updated_utc": "2026-07-17T09:38:51+00:00"
+}

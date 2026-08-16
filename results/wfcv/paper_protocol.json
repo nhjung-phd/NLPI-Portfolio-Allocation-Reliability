@@ -1,0 +1,95 @@
+{
+  "protocol_id": "NLPI-PAPER-CANONICAL-V1",
+  "start": "2010-01-01",
+  "end": "2025-12-29",
+  "tickers": [
+    "SPY",
+    "QQQ",
+    "IWM",
+    "DIA",
+    "EFA",
+    "EEM",
+    "VEA",
+    "VWO",
+    "AGG",
+    "BND",
+    "SHY",
+    "IEF",
+    "TLT",
+    "TIP",
+    "LQD",
+    "HYG",
+    "GLD",
+    "SLV",
+    "DBC",
+    "VNQ",
+    "UUP",
+    "BIL"
+  ],
+  "rebalance_days": 42,
+  "transaction_cost": 0.001,
+  "max_weight": 0.6,
+  "turnover_cap": 0.25,
+  "prompt_cap_pct": 60,
+  "wfcv": true,
+  "holdout": false,
+  "execution": "next-period",
+  "weight_drift": true,
+  "main_models": [
+    "gemma3:270m",
+    "gemma3:1b",
+    "llama3.1:8b"
+  ],
+  "robustness_models": [
+    "qwen3.5:4b"
+  ],
+  "main_policies": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5"
+  ],
+  "reliability_policies": [
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5",
+    "P6"
+  ],
+  "benchmarks": [
+    "EQUAL",
+    "RiskParity",
+    "MVP",
+    "MOM6",
+    "SHARPE"
+  ],
+  "coded_references": [
+    "CODED_P1",
+    "CODED_P2",
+    "CODED_P3",
+    "CODED_P4",
+    "CODED_P5"
+  ],
+  "reliability_experiments": [
+    "prompt_robustness",
+    "ticker_masking",
+    "policy_complexity",
+    "constraint_stress",
+    "model_generalization",
+    "sensitivity_template"
+  ],
+  "reliability_decision_sample": "stratified",
+  "n_per_regime": 6,
+  "seed": 42,
+  "figure_dpi": 600,
+  "figure_formats": [
+    "png",
+    "pdf",
+    "svg"
+  ],
+  "figure_stage": "deterministic_csv_reconstruction",
+  "include_reliability": true,
+  "include_qwen3_5_4b": true
+}

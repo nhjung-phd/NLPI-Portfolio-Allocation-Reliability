@@ -1,0 +1,2 @@
+decision,additional_calls,reason,minimum_design,scope_condition
+targeted_bridge_validation_recommended,72,"P2 target logic and the observed BIL reference align, but model choices change across execution contexts.","Replay 18 Study-B dates for four models with byte-identical prompt/feature serialization and reference execution; retain raw response, parsed weights, prompt hash, seed, temperature, and projection.",Required only if Study A and Study B P2 results are compared or jointly interpreted.

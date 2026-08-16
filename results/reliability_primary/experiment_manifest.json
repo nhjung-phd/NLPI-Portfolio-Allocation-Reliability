@@ -1,0 +1,50 @@
+{
+  "created_utc": "2026-07-29T14:48:58.943176+00:00",
+  "start": "2010-01-01",
+  "end": "2025-12-29",
+  "tickers": [
+    "SPY",
+    "QQQ",
+    "IWM",
+    "DIA",
+    "EFA",
+    "EEM",
+    "VEA",
+    "VWO",
+    "AGG",
+    "BND",
+    "SHY",
+    "IEF",
+    "TLT",
+    "TIP",
+    "LQD",
+    "HYG",
+    "GLD",
+    "SLV",
+    "DBC",
+    "VNQ",
+    "UUP",
+    "BIL"
+  ],
+  "n_features_rows": 4021,
+  "n_decision_dates": 18,
+  "decision_sample_mode": "stratified",
+  "models": [
+    "qwen3.5:4b"
+  ],
+  "experiments": [
+    "prompt_robustness",
+    "ticker_masking",
+    "policy_complexity",
+    "constraint_stress",
+    "model_generalization",
+    "sensitivity_template"
+  ],
+  "rebalance_days": 42,
+  "tcost": 0.001,
+  "max_weight": 0.6,
+  "turnover_cap": 0.25,
+  "prompt_cap_pct": 60.0,
+  "seed": 42,
+  "dry_run": false
+}

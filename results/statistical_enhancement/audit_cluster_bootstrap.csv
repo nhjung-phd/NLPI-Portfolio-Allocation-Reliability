@@ -1,0 +1,19 @@
+scope,metric,estimate,ci95_lower,ci95_upper,records,clusters,bootstrap_reps,seed,cluster_definition
+Primary audit: overall,projected_fidelity,0.14444444444444443,0.11950476385316812,0.17068914375283062,5670,756,10000,42,model_id|policy_id|decision_date
+Primary audit: overall,top3_overlap,0.4142857142857143,0.38763197367851904,0.44034411046447325,5670,756,10000,42,model_id|policy_id|decision_date
+Primary audit: overall,json_valid,1.0,1.0,1.0,5670,756,10000,42,model_id|policy_id|decision_date
+constraint_conflict_stress,projected_fidelity,0.14814814814814814,0.09427609427609428,0.20707070707070707,1188,54,10000,42,model_id|policy_id|decision_date
+constraint_conflict_stress,top3_overlap,0.4624017957351291,0.40711980920314245,0.5157196969696969,1188,54,10000,42,model_id|policy_id|decision_date
+constraint_conflict_stress,json_valid,1.0,1.0,1.0,1188,54,10000,42,model_id|policy_id|decision_date
+model_family_generalization,projected_fidelity,0.2152777777777778,0.17592592592592593,0.25462962962962965,432,432,10000,42,model_id|policy_id|decision_date
+model_family_generalization,top3_overlap,0.5084876543209877,0.4776234567901234,0.5393518518518519,432,432,10000,42,model_id|policy_id|decision_date
+model_family_generalization,json_valid,1.0,1.0,1.0,432,432,10000,42,model_id|policy_id|decision_date
+policy_complexity,projected_fidelity,0.043209876543209874,0.021604938271604937,0.06790123456790123,324,324,10000,42,model_id|policy_id|decision_date
+policy_complexity,top3_overlap,0.2006172839506173,0.17489711934156377,0.2273919753086416,324,324,10000,42,model_id|policy_id|decision_date
+policy_complexity,json_valid,1.0,1.0,1.0,324,324,10000,42,model_id|policy_id|decision_date
+prompt_robustness,projected_fidelity,0.11510530137981119,0.09116840917648995,0.14026211930450608,2754,324,10000,42,model_id|policy_id|decision_date
+prompt_robustness,top3_overlap,0.3873154199951585,0.3596835665627426,0.4146044224198719,2754,324,10000,42,model_id|policy_id|decision_date
+prompt_robustness,json_valid,1.0,1.0,1.0,2754,324,10000,42,model_id|policy_id|decision_date
+ticker_masking,projected_fidelity,0.22530864197530864,0.18518518518518517,0.2674897119341564,972,324,10000,42,model_id|policy_id|decision_date
+ticker_masking,top3_overlap,0.46124828532235934,0.4269547325102881,0.4962277091906722,972,324,10000,42,model_id|policy_id|decision_date
+ticker_masking,json_valid,1.0,1.0,1.0,972,324,10000,42,model_id|policy_id|decision_date

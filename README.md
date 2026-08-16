@@ -144,6 +144,7 @@ Third-party market-price observations are not redistributed. An end-to-end rerun
 
 The controlled scripts preserve prompts, model identifiers, seeds, temperature, top-p, decision dates, raw responses, parsed weights, projected weights, and targets.
 
+
 ## Citation and license
 
-Citation metadata are provided in [`CITATION.cff`](CITATION.cff). No software license is asserted in this release. Before public release, the authors should add the license they intend to grant; absent a license, default copyright applies.
+Citation metadata are provided in [`CITATION.cff`](CITATION.cff). The source code in this repository is released under the MIT License; see [`LICENSE`](LICENSE) for details. Third-party data remain subject to the terms and conditions of their respective providers.

@@ -11,6 +11,7 @@ authors:
     orcid: "https://orcid.org/0009-0007-7390-1714"
   - family-names: "Oh"
     given-names: "Taeyeon"
+    orcid: "https://orcid.org/0000-0002-1867-5554"
 preferred-citation:
   type: article
   title: "Natural-Language Policy Interfaces for Constraint-Projected Portfolio Allocation: Performance, Reliability, and Semantic Fidelity"
